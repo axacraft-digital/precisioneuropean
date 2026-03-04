@@ -1,10 +1,12 @@
 import Image from "next/image";
 import { siteConfig, business, stats, brands, otherVehicles } from "@/lib/data";
 import { services } from "@/lib/services";
+import JsonLd from "@/components/JsonLd";
 
 export default function Home() {
   return (
     <main>
+      <JsonLd />
       {/* Hero */}
       <section className="pt-32 pb-16 md:pt-44 md:pb-24">
         <div className="mx-auto max-w-7xl px-6 md:px-12">
@@ -117,6 +119,7 @@ export default function Home() {
                   src={brand.image}
                   alt={brand.alt}
                   fill
+                  sizes="(max-width: 640px) 100vw, 33vw"
                   className="object-cover"
                 />
                 <div className="absolute inset-0 bg-black/40" />
