@@ -105,6 +105,56 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Why Choose Us */}
+      <section className="border-t border-stone-200 py-24 md:py-40">
+        <div className="mx-auto max-w-7xl px-6 md:px-12">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-16">
+            <div>
+              <p className="text-xs font-light uppercase tracking-widest text-stone-500">
+                Why choose us
+              </p>
+              <h2 className="mt-4 text-2xl font-light tracking-tight text-stone-900 md:text-3xl">
+                Built different
+              </h2>
+            </div>
+            <div className="space-y-10">
+              <div>
+                <h3 className="text-sm font-medium text-stone-900 md:text-base">
+                  European only
+                </h3>
+                <p className="mt-2 text-sm font-light leading-relaxed text-stone-500 md:text-base">
+                  We only work on European vehicles to maintain the highest quality. Our prices are competitive with other European repair shops in the Treasure Valley.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-sm font-medium text-stone-900 md:text-base">
+                  Performance parts and software tuning
+                </h3>
+                <p className="mt-2 text-sm font-light leading-relaxed text-stone-500 md:text-base">
+                  Not all shops offer aftermarket installation and ECU tuning — it requires more work and deeper knowledge. We do both.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-sm font-medium text-stone-900 md:text-base">
+                  Cars, SUVs, and off-road
+                </h3>
+                <p className="mt-2 text-sm font-light leading-relaxed text-stone-500 md:text-base">
+                  We service sedans, coupes, SUVs, and vans — and bring off-roading experience to the table as well.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-sm font-medium text-stone-900 md:text-base">
+                  One stop shop
+                </h3>
+                <p className="mt-2 text-sm font-light leading-relaxed text-stone-500 md:text-base">
+                  From routine maintenance to full performance builds, you don&apos;t need to go to multiple shops. Everything gets done here.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Brands */}
       <section className="border-t border-stone-200 py-24 md:py-40">
         <div className="mx-auto max-w-7xl px-6 md:px-12">
