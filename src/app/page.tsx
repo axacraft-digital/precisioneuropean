@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { siteConfig, business, stats, brands } from "@/lib/data";
+import { siteConfig, business, stats, brands, otherVehicles } from "@/lib/data";
 import { services } from "@/lib/services";
 
 export default function Home() {
@@ -110,16 +110,29 @@ export default function Home() {
             Vehicles we service
           </p>
 
-          <div className="mt-16 flex flex-wrap gap-x-12 gap-y-6">
+          <div className="mt-16 grid grid-cols-1 gap-px sm:grid-cols-3">
             {brands.map((brand) => (
-              <span
-                key={brand}
-                className="text-lg font-light text-stone-400 md:text-xl"
-              >
-                {brand}
-              </span>
+              <div key={brand.name} className="relative aspect-[4/3] overflow-hidden">
+                <Image
+                  src={brand.image}
+                  alt={brand.alt}
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-black/40" />
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-xl font-light tracking-wide text-white md:text-2xl">
+                    {brand.name}
+                  </span>
+                </div>
+              </div>
             ))}
           </div>
+
+          <p className="mt-12 text-sm font-light text-stone-400">
+            Also servicing{" "}
+            {otherVehicles.join(", ")}
+          </p>
         </div>
       </section>
 

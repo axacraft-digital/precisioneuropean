@@ -29,13 +29,48 @@ export const stats = [
 ];
 
 export const brands = [
-  "Mercedes-Benz",
-  "BMW",
-  "Audi",
-  "Volkswagen",
-  "Volvo",
-  "Porsche",
+  {
+    name: "Mercedes-Benz",
+    image: "/images/mercedes-benz-cla-industrial-brand.jpg",
+    alt: "Black Mercedes-Benz CLA parked under steel beams at sunset",
+  },
+  {
+    name: "BMW",
+    image: "/images/bmw-m4-sunset-brand.jpg",
+    alt: "Gray BMW M4 coupe with glowing headlights at sunset",
+  },
+  {
+    name: "Audi",
+    image: "/images/audi-a7-autumn-brand.jpg",
+    alt: "White Audi A7 parked on a gravel road surrounded by autumn foliage",
+  },
+  {
+    name: "VW",
+    image: "/images/volkswagen-passat-forest-brand.jpg",
+    alt: "Black Volkswagen Passat driving past a lush green forest with motion blur",
+  },
+  {
+    name: "Volvo",
+    image: "/images/volvo-xc60-blue-field-brand.jpg",
+    alt: "Blue Volvo XC60 parked in a harvested field under dramatic sky",
+  },
+  {
+    name: "Porsche",
+    image: "/images/porsche-boxster-spyder-yellow-brand.jpg",
+    alt: "Yellow Porsche Boxster Spyder convertible on a mountain road at dusk",
+  },
+];
+
+export const otherVehicles = [
   "Sprinter",
+  "Toyota",
+  "Nissan",
+  "Datsun",
+  "Mitsubishi",
+  "Subaru",
+  "Mazda",
+  "Honda",
+  "Freightliner",
 ];
 
 export const navigation = [
