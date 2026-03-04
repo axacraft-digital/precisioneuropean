@@ -93,8 +93,8 @@ export default function Home() {
                 key={stat.label}
                 className="grid grid-cols-1 items-baseline gap-4 md:grid-cols-2 md:gap-16"
               >
-                <h3 className="text-5xl font-light tracking-tight text-stone-900 md:text-7xl">
-                  {stat.value} <span className="text-3xl md:text-5xl">{stat.label}</span>
+                <h3 className="text-2xl font-light tracking-tight text-stone-900 md:text-4xl">
+                  {stat.value} {stat.label}
                 </h3>
                 <p className="text-sm font-light leading-relaxed text-stone-500 md:text-base">
                   {stat.description}
