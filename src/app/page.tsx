@@ -42,7 +42,7 @@ export default function Home() {
       {/* Services */}
       <section id="services" className="py-24 md:py-40">
         <div className="mx-auto max-w-7xl px-6 md:px-12">
-          <p className="text-xs font-light uppercase tracking-widest text-stone-400">
+          <p className="text-xs font-light uppercase tracking-widest text-stone-500">
             Services
           </p>
           <h2 className="mt-4 text-2xl font-light tracking-tight text-stone-900 md:text-3xl">
@@ -81,7 +81,7 @@ export default function Home() {
       {/* Stats */}
       <section className="border-t border-stone-200 py-24 md:py-40">
         <div className="mx-auto max-w-7xl px-6 md:px-12">
-          <p className="text-xs font-light uppercase tracking-widest text-stone-400">
+          <p className="text-xs font-light uppercase tracking-widest text-stone-500">
             At a glance
           </p>
 
@@ -106,7 +106,7 @@ export default function Home() {
       {/* Brands */}
       <section className="border-t border-stone-200 py-24 md:py-40">
         <div className="mx-auto max-w-7xl px-6 md:px-12">
-          <p className="text-xs font-light uppercase tracking-widest text-stone-400">
+          <p className="text-xs font-light uppercase tracking-widest text-stone-500">
             Vehicles we service
           </p>
 
@@ -129,7 +129,7 @@ export default function Home() {
             ))}
           </div>
 
-          <p className="mt-12 text-sm font-light text-stone-400">
+          <p className="mt-12 text-sm font-light text-stone-400 md:text-base">
             Also servicing{" "}
             {otherVehicles.join(", ")}
           </p>
@@ -144,7 +144,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-6 md:px-12">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-16">
             <div>
-              <p className="text-xs font-light uppercase tracking-widest text-stone-400">
+              <p className="text-xs font-light uppercase tracking-widest text-stone-500">
                 Owner
               </p>
               <h2 className="mt-4 text-2xl font-light tracking-tight text-stone-900 md:text-3xl">
@@ -182,7 +182,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-6 md:px-12">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-16">
             <div>
-              <p className="text-xs font-light uppercase tracking-widest text-stone-400">
+              <p className="text-xs font-light uppercase tracking-widest text-stone-500">
                 Contact
               </p>
               <h2 className="mt-4 text-2xl font-light tracking-tight text-stone-900 md:text-3xl">
